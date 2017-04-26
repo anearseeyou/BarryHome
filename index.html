@@ -1,0 +1,1364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <!-- 视口 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BarryHome</title>
+    <!-- CSS导入文件 -->
+    <link rel="shortcut icon" type="text/css" href="favicon.ico">
+    <link rel="stylesheet" type="text/css" href="css/lib/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/lib/htmlbase.css">
+    <link rel="stylesheet" type="text/css" href="css/lib/animate-custom.css">
+    <link rel="stylesheet" type="text/css" href="css/edslider.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <base target="_blank">
+</head>
+<body onselectstart="return false">
+
+<!---------------------------- GPS ---------------------------------->
+<!-- S - 全局导航 -->
+<svg id="GPS" class="hidden">
+    <defs>
+        <symbol id="icon-pin" viewBox="0 0 24 24">
+            <title>pin</title>
+            <path d="M17.6,2.9L17.6,2.9c-3.1-3.1-8.2-3.1-11.3,0l0,0C3.6,5.7,3.2,11,5.6,14.2l6.4,9.2l6.4-9.2C20.8,11,20.4,5.7,17.6,2.9z M12.1,11.1c-1.5,0-2.6-1.2-2.6-2.6s1.2-2.6,2.6-2.6s2.6,1.2,2.6,2.6S13.5,11.1,12.1,11.1z"/>
+        </symbol>
+    </defs>
+</svg>
+<nav class="nav nav--totit">
+    <button class="nav__item nav__item--current" aria-label="Item 1">
+        <svg class="nav__icon">
+            <use xlink:href="#icon-pin"></use>
+        </svg>
+        <span class="nav__item-title"></span>
+    </button>
+    <button class="nav__item" aria-label="Item 2">
+        <svg class="nav__icon">
+            <use xlink:href="#icon-pin"></use>
+        </svg>
+        <span class="nav__item-title"></span>
+    </button>
+    <button class="nav__item" aria-label="Item 3">
+        <svg class="nav__icon">
+            <use xlink:href="#icon-pin"></use>
+        </svg>
+        <span class="nav__item-title"></span>
+    </button>
+</nav>
+<!-- E - 全局导航 -->
+
+<!---------------------------- 第一页 ---------------------------------->
+<!-- S - 第一页 -->
+<section class="part1">
+    <!-- 轮播 -->
+    <div style="display: none" class="center-slider">
+
+        <ul class="mySlideshow">
+
+            <li class="first">
+                <a href="javascript:;" class="animated fadeInLeft">
+                    <img src="images/coder.jpg" width="200" height="200" alt="Harley-Davidson">
+                </a>
+                <div class="animated fadeInRight">
+                    <span>编程之路,道阻且长</span><br>
+                    <span>还有吟不了的诗和到不了的远方</span><br>
+                    <span class="code">So just keep the fucking code!</span>
+                </div>
+            </li>
+
+            <li class="second">
+                <img src="images/second-title.png" class="animated fadeInRight">
+                <p class="animated fadeInDown">
+                    <span>假如生活欺骗你</span><br>
+                    <span>不要悲伤 不要心急</span><br>
+                    <span class="second-text">
+                        忧郁的日子里需要镇静
+                    </span><br>
+                </p>
+                <img src="images/xiao.jpg" class="animated fadeInRight young-man">
+            </li>
+
+            <li class="third">
+                <img src="images/third-title.png" class="animated fadeInLeft">
+                <p class="animated fadeInRight">
+                    <span>相信吧！快乐的日子将会来临</span><br>
+                    <span class="third-text">心永远向往着未来</span><br>
+                </p>
+                <img src="images/xiao3.jpg" class="animated fadeInLeft happy-man">
+            </li>
+
+            <li class="fourth">
+                <img src="images/fourth-title.png" class="animated fadeInLeft">
+                <p class="animated fadeInRight">
+                    <span>现在却常是忧郁</span><br>
+                    <span>一切都是瞬息</span><br>
+                    <span class="fourth-text">一切都会将过去</span><br>
+                </p>
+                <img src="images/xiao4.jpg" class="animated fadeInDown middle-man">
+            </li>
+
+            <li class="fifth">
+                <img src="images/fifth-title.png" class="animated fadeInRight">
+                <p class="animated fadeInLeft">
+                    <span>而那过去了的</span><br>
+                    <span>就会成为亲切的怀念。</span><br>
+                </p>
+                <img src="images/xiao7.jpg" class="animated fadeInDown old-man">
+            </li>
+        </ul>
+
+    </div>
+    <!-- 动画 -->
+    <div id="container">
+        <div id="content">
+            <div id="stage">
+                <div class="space"></div>
+                <div class="mountains">
+                    <div class="mountain mountain-1"></div>
+                    <div class="mountain mountain-2"></div>
+                    <div class="mountain mountain-3"></div>
+                </div>
+                <div class="bear"></div>
+                <div class="auroras">
+                    <div class="aurora aurora-1"></div>
+                    <div class="aurora aurora-2"></div>
+                    <div class="aurora aurora-3"></div>
+                    <div class="aurora aurora-4"></div>
+                    <div class="aurora aurora-5"></div>
+                    <div class="aurora aurora-6"></div>
+                    <div class="aurora aurora-7"></div>
+                    <div class="aurora aurora-8"></div>
+                    <div class="aurora aurora-9"></div>
+                    <div class="aurora aurora-10"></div>
+                    <div class="aurora aurora-11"></div>
+                    <div class="aurora aurora-12"></div>
+                    <div class="aurora aurora-13"></div>
+                    <div class="aurora aurora-14"></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+<!-- E - 第一页 -->
+
+<!---------------------------- 第二页 ---------------------------------->
+<!-- S - 第二页 -->
+<section style="display: none" class="part2 current">
+    <div class="container">
+        <div class="st-container">
+            <input type="radio" name="radio-set" checked="checked" id="st-control-1"/>
+            <a href="#st-panel-1">个人主页</a>
+
+            <input type="radio" name="radio-set" id="st-control-2"/>
+            <a href="#st-panel-4">擅长技术</a>
+
+            <input type="radio" name="radio-set" id="st-control-3"/>
+            <a href="#st-panel-3">工作经历</a>
+
+            <input type="radio" name="radio-set" id="st-control-4"/>
+            <a href="#st-panel-2">基本信息</a>
+
+            <input type="radio" name="radio-set" id="st-control-5"/>
+            <a href="#st-panel-5">了解更多</a>
+
+            <div class="st-scroll">
+                <!-- 个人简介-->
+                <div class="st-panel" id="st-panel-1">
+                    <div class="st-deco" data-icon="H"></div>
+                    <a href="javascript:;" class="portrait">
+                        <img src="images/portrait.jpg" alt="HTML5前端工程师">
+                    </a>
+                    <h2 class="title">郑炳懿</h2>
+                    <p>维而不坚的英语水平 · 朴实无华的编译能力 · 独具魅力的高尚人格</p>
+                    <p class="content">HTML5前端工程师 & 三年开发经验</p>
+                    <p class="charm">一个会跳舞的程序猿 & Free Style.</p>
+                </div>
+
+                <!-- 擅长技术 -->
+                <div class="st-panel st-color" id="st-panel-2">
+                    <div class="st-deco" data-icon="x"></div>
+                    <h2 class="major">擅长技术</h2>
+                    <div class="technology">
+                        <ul>
+                            <li>
+                                <span>HTML</span>
+                                <span>HTML5</span>
+                            </li>
+                            <li>
+                                <span>CSS</span>
+                                <span>CSS3</span>
+                                <span>Animate.css</span>
+                            </li>
+                            <li>
+                                <span>JavaScript</span>
+                                <span class="so-good">jQuery</span>
+                                <span class="so-good">Bootstrap</span>
+                                <span class="so-good">Ajax</span>
+                                <span class="soso">PHP</span>
+                                <span class="soso">Three.js</span>
+                            </li>
+                            <li>
+                                <span class="so-good">WoW</span>
+                                <span class="so-good">ScrollReveal</span>
+                                <span class="so-good">Zepto</span>
+                                <span class="so-good">Swiper</span>
+                                <span class="soso">Canvas</span>
+                            </li>
+                            <li>
+                                <span class="so-good">Vue</span>
+                                <span class="so-good">Angular</span>
+                                <span class="soso">Node</span>
+                                <span class="soso">React Native</span>
+                            </li>
+                            <li>
+                                <span>PhotoShop</span>
+                                <span>Github</span>
+                                <span>Gulp</span>
+                                <span>Webpack</span>
+                                <span>Fireworks</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- 工作经历 -->
+                <div class="st-panel" id="st-panel-3">
+                    <div class="st-deco" data-icon="B"></div>
+                    <h2 class="job">工作经历</h2>
+                    <div class="tab-job">
+                        <div class="job-head">
+                            <ul>
+                                <li class="current">
+                                    <strong>2012年</strong>
+                                </li>
+                                <li>
+                                    <strong>2013年</strong>
+                                </li>
+                                <li>
+                                    <strong>2014年</strong>
+                                </li>
+                                <li>
+                                    <strong>2015年</strong>
+                                </li>
+                                <li>
+                                    <strong>2016年</strong>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="job-content">
+                            <ul>
+                                <li class="content-list show">
+                                    在校期间，与朋友一起弄了一个计算机动漫小组，应用软件主要有3DMax，Maya，犀牛，
+                                    ZB，CAD，Photoshop等软件，学校举办晚会的时候做一些特效放映在大屏幕上。 后来快
+                                    毕业的时候，大家说我们要吃饭，我们要工作，然后团队就在瞬间瓦解掉了！
+                                </li>
+                                <li class="content-list">
+                                    13年毕业，投身于亲戚开的一家创业互联网公司，担任前端的基本工作。 由于是在亲戚公
+                                    司，所以相对来说没有那么大的压力，时间富裕的时候就自己仿一些静态页面来提升自己的
+                                    布局能力。
+                                </li>
+                                <li class="content-list">
+                                    14年，随着京东和阿里巴巴的上市，中国的互联网进入真正的热潮。 于我来说，仿佛看到了
+                                    曙光，坚决离开亲戚的公司，结束了比较安逸的一段工作，去探索新技术，寻求新方向。<br>
+                                    <span>项目分享：</span>
+                                    <a href="https://github.com/anearseeyou/Package-animation">Package</a>
+                                    <a href="http://www.keeponcode.com/WaterFall/">WaterFall</a>
+                                    <div class="share-content">
+                                        <span>技术点：</span>自己封装联动动画功能。通过jQuery原理封装一些常用功能，里面包括入口函数封
+                                        装、函数和DOM操作、样式和事件处理，Ajax请求数据封装功能，只需要传入参数即可，
+                                        cookie缓冲记录和保存时长功能。</div>
+                                </li>
+                                <li class="content-list">
+                                    在编程的路上，迷茫、徘徊，不知去向的时候，突然收到好哥们晋升的消息，在他的推荐之
+                                    下，去到他们公司，一起协作开发。平时通过国外网站、看书、参加互联网大会等学习手
+                                    段，来提升自己的编程水平和编码规范。<br>
+                                    <span>项目分享：</span>
+                                    <a href="http://www.keeponcode.com/Memorandum/">
+                                        Memorandum
+                                    </a>
+                                    <a href="http://www.keeponcode.com/Imitate-Micro-gold/#">
+                                        Micro-gold
+                                    </a>
+                                    <div class="share-content">
+                                        <span>技术点：</span>
+                                        Micro-gold：这是一个用bootstrap做的响应式网站，可以在移动端和PC端运行。
+                                        Memorandum：这是用jQuery结合jQuery-UI实现的一款简易备忘录，具备增删改查功能！
+                                    </div>
+                                </li>
+                                <li class="content-list">
+                                    16年年底，在团队的共同协作下，项目众教APP终于正式上线。看着项目就像自己的孩子一
+                                    样一步步成长，心里有说不出来的喜悦。虽然为了这个项目通宵达旦了很多个夜晚！<br>
+
+                                    <a class="pro" href="http://www.chinazjapp.com"
+                                       target="_blank">PC端地址：www.chinazjapp.com</a><br>
+                                    手机应用商店搜索：<span class="app">众教APP</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 教育背景 -->
+                <div class="st-panel st-color" id="st-panel-4">
+                    <div class="st-deco" data-icon="2"></div>
+                    <h2>基本信息</h2>
+                    <p class="education">
+                        <span>天津国土资源大学</span><br>
+                        <span class="grad">性别：男  &nbsp;&nbsp;年龄：27岁</span><br>
+                        <span class="grad">2013年6月毕业</span><br>
+                        <span class="grad">手机：15202260782</span><br>
+                        <span class="grad">邮箱：anearseeyou@163.com</span><br>
+                        <span class="info">人工智能是未来发展趋势，对于一个特别喜欢科技的我，
+                        想必一定是一件锦上添花的事。</span>
+                    </p>
+                </div>
+
+                <!-- 了解更多 -->
+                <div class="st-panel" id="st-panel-5">
+                    <div class="st-deco" data-icon="Ç"></div>
+                    <h2>了解更多</h2>
+                    <div class="more">
+                        <h1>
+                            <a href="" target="_blank" title="Follow me to Home">个人主页</a> |
+                            <a href="" target="_blank" title="Follow me to Blog">个人博客</a>
+                        </h1>
+                        <p class="email">
+                            Email: <a href="javascript:;" target="_blank">anearseeyou@163.com</a>
+                        </p>
+                        <div class="about">
+                            <ul>
+                                <li>
+                                    <a href="https://twitter.com/anearseeyou"
+                                       title="Follow me to Twitter"
+                                       target="_blank">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://plus.google.com/u/0/"
+                                       title="Follow me to Google"
+                                       target="_blank">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://github.com/anearseeyou"
+                                       title="Follow me to Github"
+                                       target="_blank">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://stackoverflow.com/users/7877456/anearseeyou"
+                                       title="Follow me to Stack Overflow"
+                                       target="_blank">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.douban.com/people/160404288/"
+                                       title="Follow me to Douban"
+                                       target="_blank">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="http://weibo.com/u/2072124683/home?wvr=5"
+                                       title="Follow me to Douban"
+                                       target="_blank">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+<!-- E - 第二页 -->
+
+<!---------------------------- 第三页 ---------------------------------->
+<!-- S - 第三页 -->
+<section style="display: none" class="part3 ">
+    <!-- 导航 -->
+    <header class="header">
+        <!-- Logo -->
+        <h1 class="logo">
+            Jay Chou Music Festival
+        </h1>
+        <!-- 导航 -->
+        <nav id="nav">
+            <ul class="oUl">
+                <li>
+                    <i class="fill">
+                        <em class="current-bg">床边故事</em>
+                    </i>
+                    <span></span>
+                    <audio src="source/a1.mp3"></audio>
+                </li>
+                <li>
+                    <i>
+                        <em class="current-bg">七里香</em>
+                    </i>
+                    <span></span>
+                    <audio src="source/a2.mp3"></audio>
+                </li>
+                <li>
+                    <i>
+                        <em class="current-bg">Jay同名专辑</em>
+                    </i>
+                    <span></span>
+                    <audio src="source/a3.mp3"></audio>
+                </li>
+                <li>
+                    <i>
+                        <em class="current-bg">依然范特西</em>
+                    </i>
+                    <span></span>
+                    <audio src="source/a4.mp3"></audio>
+                </li>
+                <li>
+                    <i>
+                        <em class="current-bg">十一月的萧邦</em>
+                    </i>
+                    <span></span>
+                    <audio src="source/a5.mp3"></audio>
+                </li>
+                <li>
+                    <i>
+                        <em class="current-bg">牛仔很忙</em>
+                    </i>
+                    <span></span>
+                    <audio src="source/a6.mp3"></audio>
+                </li>
+                <li>
+                    <i>
+                        <em class="current-bg">十二新作</em>
+                    </i>
+                    <span></span>
+                    <audio src="source/a7.mp3"></audio>
+                </li>
+                <li>
+                    <i>
+                        <em class="current-bg">叶惠美</em>
+                    </i>
+                    <span></span>
+                    <audio src="source/a8.mp3"></audio>
+                </li>
+                <li>
+                    <i>
+                        <em class="current-bg">不能说的秘密</em>
+                    </i>
+                    <span></span>
+                    <audio src="source/a9.mp3"></audio>
+                </li>
+            </ul>
+        </nav>
+        <!-- 登录 -->
+        <div class="login">
+            <a href="javascript:;">登录<img src="images/down.png" alt=""></a>
+        </div>
+        <!-- 登录选项 -->
+        <div style="display: none" class="login-list">
+            <ul>
+                <li class="mobile">
+                    <a href="javascript:;">
+                        <i class="icon icon-mb"></i>
+                        <em>手机快速登录</em>
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank"
+                       href="https://open.weixin.qq.com/connect/qrconnect?appid=wxe280063f5fb2528a&response_type=code&redirect_uri=https://music.163.com/back/weichat&forcelogin=true&scope=snsapi_login&state=FVmTncukPl&lang=zh_CN#wechat_redirect">
+                        <i class="icon icon-wx"></i>
+                        <em>微信登录</em>
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank"
+                       href="https://graph.qq.com/oauth/show?which=Login&display=pc&client_id=100495085&response_type=code&redirect_uri=https://music.163.com/back/qq&forcelogin=true&state=cxVQTYPCdi">
+                        <i class="icon icon-qq"></i>
+                        <em>QQ号登录</em>
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank"
+                       href="https://api.weibo.com/oauth2/authorize?client_id=301575942&response_type=code&redirect_uri=http://music.163.com/back/weibo&forcelogin=true&scope=friendships_groups_read,statuses_to_me_read,follow_app_official_microblog&state=rzKoDOOWFB">
+                        <i class="icon icon-wb"></i>
+                        <em>新浪微博登录</em>
+                    </a>
+                </li>
+                <li class="email">
+                    <a href="javascript:;">
+                        <i class="icon icon-wy"></i>
+                        <em>网易邮箱登录</em>
+                    </a>
+                </li>
+            </ul>
+            <img class="sjx" src="images/sanjiaoxing.png" alt="">
+        </div>
+    </header>
+
+    <!-- 模态登录 -->
+    <div style="display: none" class="interface" id="move">
+        <!-- 中心面板 -->
+        <div class="panel" id="panel">
+            <h1 class="login-title">手机号登录</h1>
+            <i class="close"></i>
+        </div>
+        <!-- 登录框 -->
+        <div class="mode-login" id="login">
+            <div class="user-pwd" id="user-pwd">
+                <input type="text" placeholder="请输入手机号">
+            </div>
+            <div class="user-pwd" id="pwd-user">
+                <input type="password" placeholder="请输入密码">
+            </div>
+            <div class="setting">
+                <a href="javascript:;">下次自动登录
+                    <input type="checkbox" checked>
+                </a>
+                <a href="javascript:;" class="seting-right">忘记密码 ?</a>
+            </div>
+            <button class="sign">登&nbsp;录</button>
+            <div class="reg">
+                没有账号 ? &nbsp;&nbsp;
+                <a href="javascript:;">立即注册 &gt;</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- 蒙版 -->
+    <div style="display: none" class="mask"></div>
+
+    <!-- banner部分 -->
+    <div id="banner">
+        <div class="banner-left">
+
+            <!-- 床边故事 -->
+            <ul class="showUl" style="display: block">
+                <li>
+                    <p></p>
+                    <p>操作</p>
+                    <p>音乐标题</p>
+                    <p>歌手</p>
+                    <p>时长</p>
+                </li>
+                <li>
+                    <span class="num">01</span>
+                    <span class="control"><img src="images/heart-change.png"></span>
+                    <span class="title">告白气球</span>
+                    <span class="singer">周杰伦</span>
+                    <span class="timer">03:35</span>
+                </li>
+                <li>
+                    <span class="num">02</span>
+                    <span class="control"><img src="images/heart.png"></span>
+                    <span class="title">说走就走</span>
+                    <span class="singer">周杰伦</span>
+                    <span class="timer">04:26</span>
+                </li>
+                <li>
+                    <span class="num">03</span>
+                    <span class="control"><img src="images/heart.png"></span>
+                    <span class="title">一点点</span>
+                    <span class="singer">周杰伦</span>
+                    <span class="timer">03:41</span>
+                </li>
+                <li>
+                    <span class="num">04</span>
+                    <span class="control"><img src="images/heart.png"></span>
+                    <span class="title">前世情人</span>
+                    <span class="singer">周杰伦</span>
+                    <span class="timer">03:20</span>
+                </li>
+                <li>
+                    <span class="num">05</span>
+                    <span class="control"><img src="images/heart.png"></span>
+                    <span class="title">英雄</span>
+                    <span class="singer">周杰伦</span>
+                    <span class="timer">03:21</span>
+                </li>
+                <li>
+                    <span class="num">06</span>
+                    <span class="control"><img src="images/heart.png"></span>
+                    <span class="title">不该</span>
+                    <span class="singer">周杰伦</span>
+                    <span class="timer">04:50</span>
+                </li>
+                <li>
+                    <span class="num">07</span>
+                    <span class="control"><img src="images/heart-change.png"></span>
+                    <span class="title">土耳其冰淇淋</span>
+                    <span class="singer">周杰伦</span>
+                    <span class="timer">03:15</span>
+                </li>
+                <li>
+                    <span class="num">08</span>
+                    <span class="control"><img src="images/heart-change.png"></span>
+                    <span class="title">床边故事</span>
+                    <span class="singer">周杰伦</span>
+                    <span class="timer">03:46</span>
+                </li>
+                <li>
+                    <span class="num">09</span>
+                    <span class="control"><img src="images/heart.png"></span>
+                    <span class="title">Now You See Me</span>
+                    <span class="singer">周杰伦</span>
+                    <span class="timer">02:54</span>
+                </li>
+                <li>
+                    <span class="num">10</span>
+                    <span class="control"><img src="images/heart-change.png"></span>
+                    <span class="title">爱情废柴</span>
+                    <span class="singer">周杰伦</span>
+                    <span class="timer">04:45</span>
+                </li>
+            </ul>
+            <!-- 同名专辑 -->
+            <ul>
+                <li>
+                    <p></p>
+                    <p>操作</p>
+                    <p>音乐标题</p>
+                    <p>歌手</p>
+                    <p>时长</p>
+                </li>
+                <li>
+                    <span class="num">01</span>
+                    <span class="control"><img src="images/heart.png"></span>
+                    <span class="title">可爱女人</span>
+                    <span class="singer">Jay</span>
+                    <span class="timer">03:59</span>
+                </li>
+                <li>
+                    <span class="num">02</span>
+                    <span class="control"><img src="images/heart.png"></span>
+                    <span class="title">完美主义</span>
+                    <span class="singer">Jay</span>
+                    <span class="timer">04:26</span>
+                </li>
+                <li>
+                    <span class="num">03</span>
+                    <span class="control"><img src="images/heart-change.png"></span>
+                    <span class="title">星晴</span>
+                    <span class="singer">Jay</span>
+                    <span class="timer">04:19</span>
+                </li>
+                <li>
+                    <span class="num">04</span>
+                    <span class="control"><img src="images/heart-change.png"></span>
+                    <span class="title">娘子</span>
+                    <span class="singer">Jay</span>
+                    <span class="timer">04:31</span>
+                </li>
+                <li>
+                    <span class="num">05</span>
+                    <span class="control"><img src="images/heart.png"></span>
+                    <span class="title">斗牛</span>
+                    <span class="singer">Jay</span>
+                    <span class="timer">04:38</span>
+                </li>
+                <li>
+                    <span class="num">06</span>
+                    <span class="control"><img src="images/heart-change.png"></span>
+                    <span class="title">黑色幽默</span>
+                    <span class="singer">Jay</span>
+                    <span class="timer">04:43</span>
+                </li>
+                <li>
+                    <span class="num">07</span>
+                    <span class="control"><img src="images/heart-change.png"></span>
+                    <span class="title">伊斯坦堡</span>
+                    <span class="singer">Jay</span>
+                    <span class="timer">03:29</span>
+                </li>
+                <li>
+                    <span class="num">08</span>
+                    <span class="control"><img src="images/heart.png"></span>
+                    <span class="title">印第安老斑鸠</span>
+                    <span class="singer">Jay</span>
+                    <span class="timer">05:04</span>
+                </li>
+                <li>
+                    <span class="num">09</span>
+                    <span class="control"><img src="images/heart-change.png"></span>
+                    <span class="title">龙卷风</span>
+                    <span class="singer">Jay</span>
+                    <span class="timer">02:54</span>
+                </li>
+                <li>
+                    <span class="num">10</span>
+                    <span class="control"><img src="images/heart.png"></span>
+                    <span class="title">反方向的钟</span>
+                    <span class="singer">Jay</span>
+                    <span class="timer">04:18</span>
+                </li>
+            </ul>
+            <!-- 十一月的萧邦 -->
+            <ul>
+                <li>
+                    <p></p>
+                    <p>操作</p>
+                    <p>音乐标题</p>
+                    <p>歌手</p>
+                    <p>时长</p>
+                </li>
+                <li>
+                    <span class="num">01</span>
+                    <span class="control"><img src="images/heart-change.png"></span>
+                    <span class="title">夜曲</span>
+                    <span class="singer">周杰伦</span>
+                    <span class="timer">03:46</span>
+                </li>
+                <li>
+                    <span class="num">02</span>
+                    <span class="control"><img src="images/heart.png"></span>
+                    <span class="title">蓝色风暴</span>
+                    <span class="singer">周杰伦</span>
+                    <span class="timer">04:47</span>
+                </li>
+                <li>
+                    <span class="num">03</span>
+                    <span class="control"><img src="images/heart-change.png"></span>
+                    <span class="title">发如雪</span>
+                    <span class="singer">周杰伦</span>
+                    <span class="timer">04:59</span>
+                </li>
+                <li>
+                    <span class="num">04</span>
+                    <span class="control"><img src="images/heart.png"></span>
+                    <span class="title">黑色毛衣</span>
+                    <span class="singer">周杰伦</span>
+                    <span class="timer">04:12</span>
+                </li>
+                <li>
+                    <span class="num">05</span>
+                    <span class="control"><img src="images/heart.png"></span>
+                    <span class="title">四面楚歌</span>
+                    <span class="singer">周杰伦</span>
+                    <span class="timer">04:08</span>
+                </li>
+                <li>
+                    <span class="num">06</span>
+                    <span class="control"><img src="images/heart-change.png"></span>
+                    <span class="title">枫</span>
+                    <span class="singer">周杰伦</span>
+                    <span class="timer">04:35</span>
+                </li>
+                <li>
+                    <span class="num">07</span>
+                    <span class="control"><img src="images/heart.png"></span>
+                    <span class="title">浪漫手机</span>
+                    <span class="singer">周杰伦</span>
+                    <span class="timer">04:00</span>
+                </li>
+                <li>
+                    <span class="num">08</span>
+                    <span class="control"><img src="images/heart.png"></span>
+                    <span class="title">珊瑚海</span>
+                    <span class="singer">周杰伦</span>
+                    <span class="timer">04:15</span>
+                </li>
+                <li>
+                    <span class="num">09</span>
+                    <span class="control"><img src="images/heart.png"></span>
+                    <span class="title">逆鳞</span>
+                    <span class="singer">周杰伦</span>
+                    <span class="timer">03:54</span>
+                </li>
+                <li>
+                    <span class="num">10</span>
+                    <span class="control"><img src="images/heart.png"></span>
+                    <span class="title">麦芽糖</span>
+                    <span class="singer">周杰伦</span>
+                    <span class="timer">04:15</span>
+                </li>
+            </ul>
+            <!-- 十二新作-->
+            <ul>
+                <li>
+                    <p></p>
+                    <p>操作</p>
+                    <p>音乐标题</p>
+                    <p>歌手</p>
+                    <p>时长</p>
+                </li>
+                <li>
+                    <span class="num">01</span>
+                    <span class="control"><img src="images/heart.png"></span>
+                    <span class="title">四季列车</span>
+                    <span class="singer">Jay</span>
+                    <span class="timer">02:39</span>
+                </li>
+                <li>
+                    <span class="num">02</span>
+                    <span class="control"><img src="images/heart.png"></span>
+                    <span class="title">手语</span>
+                    <span class="singer">Jay</span>
+                    <span class="timer">04:48</span>
+                </li>
+                <li>
+                    <span class="num">03</span>
+                    <span class="control"><img src="images/heart.png"></span>
+                    <span class="title">公公偏头痛</span>
+                    <span class="singer">Jay</span>
+                    <span class="timer">03:03</span>
+                </li>
+                <li>
+                    <span class="num">04</span>
+                    <span class="control"><img src="images/heart.png"></span>
+                    <span class="title">明明就</span>
+                    <span class="singer">Jay</span>
+                    <span class="timer">04:18</span>
+                </li>
+                <li>
+                    <span class="num">05</span>
+                    <span class="control"><img src="images/heart.png"></span>
+                    <span class="title">爱你没差</span>
+                    <span class="singer">Jay</span>
+                    <span class="timer">04:40</span>
+                </li>
+                <li>
+                    <span class="num">06</span>
+                    <span class="control"><img src="images/heart-change.png"></span>
+                    <span class="title">红尘客栈</span>
+                    <span class="singer">Jay</span>
+                    <span class="timer">04:35</span>
+                </li>
+                <li>
+                    <span class="num">07</span>
+                    <span class="control"><img src="images/heart.png"></span>
+                    <span class="title">梦想启动</span>
+                    <span class="singer">Jay</span>
+                    <span class="timer">03:25</span>
+                </li>
+                <li>
+                    <span class="num">08</span>
+                    <span class="control"><img src="images/heart.png"></span>
+                    <span class="title">大笨种</span>
+                    <span class="singer">Jay</span>
+                    <span class="timer">04:02</span>
+                </li>
+                <li>
+                    <span class="num">09</span>
+                    <span class="control"><img src="images/heart.png"></span>
+                    <span class="title">哪里都是你</span>
+                    <span class="singer">Jay</span>
+                    <span class="timer">04:39</span>
+                </li>
+                <li>
+                    <span class="num">10</span>
+                    <span class="control"><img src="images/heart.png"></span>
+                    <span class="title">马克丽丽</span>
+                    <span class="singer">Jay</span>
+                    <span class="timer">02:55</span>
+                </li>
+            </ul>
+
+        </div>
+        <div class="banner-middle"></div>
+        <div class="banner-right">
+
+            <!-- 七里香 -->
+            <ul class="showUl" style="display: block">
+                <li>
+                    <p></p>
+                    <p>操作</p>
+                    <p>音乐标题</p>
+                    <p>歌手</p>
+                    <p>时长</p>
+                </li>
+                <li>
+                    <span class="num">01</span>
+                    <span class="control"><img src="images/heart-change.png"></span>
+                    <span class="title">我的地盘</span>
+                    <span class="singer">周杰伦</span>
+                    <span class="timer">04:04</span>
+                </li>
+                <li>
+                    <span class="num">02</span>
+                    <span class="control"><img src="images/heart-change.png"></span>
+                    <span class="title">七里香</span>
+                    <span class="singer">周杰伦</span>
+                    <span class="timer">04:59</span>
+                </li>
+                <li>
+                    <span class="num">03</span>
+                    <span class="control"><img src="images/heart-change.png"></span>
+                    <span class="title">借口</span>
+                    <span class="singer">周杰伦</span>
+                    <span class="timer">04:20</span>
+                </li>
+                <li>
+                    <span class="num">04</span>
+                    <span class="control"><img src="images/heart-change.png"></span>
+                    <span class="title">外婆</span>
+                    <span class="singer">周杰伦</span>
+                    <span class="timer">04:04</span>
+                </li>
+                <li>
+                    <span class="num">05</span>
+                    <span class="control"><img src="images/heart.png"></span>
+                    <span class="title">将军</span>
+                    <span class="singer">周杰伦</span>
+                    <span class="timer">03:24</span>
+                </li>
+                <li>
+                    <span class="num">06</span>
+                    <span class="control"><img src="images/heart-change.png"></span>
+                    <span class="title">搁浅</span>
+                    <span class="singer">周杰伦</span>
+                    <span class="timer">04:50</span>
+                </li>
+                <li>
+                    <span class="num">07</span>
+                    <span class="control"><img src="images/heart.png"></span>
+                    <span class="title">乱舞春秋</span>
+                    <span class="singer">周杰伦</span>
+                    <span class="timer">04:00</span>
+                </li>
+                <li>
+                    <span class="num">08</span>
+                    <span class="control"><img src="images/heart-change.png"></span>
+                    <span class="title">困兽之斗</span>
+                    <span class="singer">周杰伦</span>
+                    <span class="timer">04:29</span>
+                </li>
+                <li>
+                    <span class="num">09</span>
+                    <span class="control"><img src="images/heart.png"></span>
+                    <span class="title">园游会</span>
+                    <span class="singer">周杰伦</span>
+                    <span class="timer">04:15</span>
+                </li>
+                <li>
+                    <span class="num">10</span>
+                    <span class="control"><img src="images/heart-change.png"></span>
+                    <span class="title">止殇之战</span>
+                    <span class="singer">周杰伦</span>
+                    <span class="timer">04:34</span>
+                </li>
+            </ul>
+
+            <!-- 依然范特西 -->
+            <ul>
+                <li>
+                    <p></p>
+                    <p>操作</p>
+                    <p>音乐标题</p>
+                    <p>歌手</p>
+                    <p>时长</p>
+                </li>
+                <li>
+                    <span class="num">01</span>
+                    <span class="control"><img src="images/heart-change.png"></span>
+                    <span class="title">爱在西元前</span>
+                    <span class="singer">Jay</span>
+                    <span class="timer">03:54</span>
+                </li>
+                <li>
+                    <span class="num">02</span>
+                    <span class="control"><img src="images/heart-change.png"></span>
+                    <span class="title">爸我回来了</span>
+                    <span class="singer">Jay</span>
+                    <span class="timer">03:55</span>
+                </li>
+                <li>
+                    <span class="num">03</span>
+                    <span class="control"><img src="images/heart-change.png"></span>
+                    <span class="title">简单爱</span>
+                    <span class="singer">Jay</span>
+                    <span class="timer">04:20</span>
+                </li>
+                <li>
+                    <span class="num">04</span>
+                    <span class="control"><img src="images/heart.png"></span>
+                    <span class="title">忍者</span>
+                    <span class="singer">Jay</span>
+                    <span class="timer">02:38</span>
+                </li>
+                <li>
+                    <span class="num">05</span>
+                    <span class="control"><img src="images/heart.png"></span>
+                    <span class="title">开不了口</span>
+                    <span class="singer">Jay</span>
+                    <span class="timer">04:44</span>
+                </li>
+                <li>
+                    <span class="num">06</span>
+                    <span class="control"><img src="images/heart.png"></span>
+                    <span class="title">上海一九四三</span>
+                    <span class="singer">Jay</span>
+                    <span class="timer">03:15</span>
+                </li>
+                <li>
+                    <span class="num">07</span>
+                    <span class="control"><img src="images/heart.png"></span>
+                    <span class="title">对不起</span>
+                    <span class="singer">Jay</span>
+                    <span class="timer">03:45</span>
+                </li>
+                <li>
+                    <span class="num">08</span>
+                    <span class="control"><img src="images/heart-change.png"></span>
+                    <span class="title">威廉古堡</span>
+                    <span class="singer">Jay</span>
+                    <span class="timer">03:56</span>
+                </li>
+                <li>
+                    <span class="num">09</span>
+                    <span class="control"><img src="images/heart-change.png"></span>
+                    <span class="title">双节棍</span>
+                    <span class="singer">Jay</span>
+                    <span class="timer">03:21</span>
+                </li>
+                <li>
+                    <span class="num">10</span>
+                    <span class="control"><img src="images/heart-change.png"></span>
+                    <span class="title">安静</span>
+                    <span class="singer">Jay</span>
+                    <span class="timer">05:34</span>
+                </li>
+            </ul>
+
+            <!-- 牛仔很忙 -->
+            <ul>
+                <li>
+                    <p></p>
+                    <p>操作</p>
+                    <p>音乐标题</p>
+                    <p>歌手</p>
+                    <p>时长</p>
+                </li>
+                <li>
+                    <span class="num">01</span>
+                    <span class="control"><img src="images/heart-change.png"></span>
+                    <span class="title">牛仔很忙</span>
+                    <span class="singer">周杰伦</span>
+                    <span class="timer">02:48</span>
+                </li>
+                <li>
+                    <span class="num">02</span>
+                    <span class="control"><img src="images/heart.png"></span>
+                    <span class="title">彩虹</span>
+                    <span class="singer">周杰伦</span>
+                    <span class="timer">04:23</span>
+                </li>
+                <li>
+                    <span class="num">03</span>
+                    <span class="control"><img src="images/heart-change.png"></span>
+                    <span class="title">青花瓷</span>
+                    <span class="singer">周杰伦</span>
+                    <span class="timer">03:59</span>
+                </li>
+                <li>
+                    <span class="num">04</span>
+                    <span class="control"><img src="images/heart-change.png"></span>
+                    <span class="title">阳光宅男</span>
+                    <span class="singer">周杰伦</span>
+                    <span class="timer">03:42</span>
+                </li>
+                <li>
+                    <span class="num">05</span>
+                    <span class="control"><img src="images/heart-change.png"></span>
+                    <span class="title">蒲公英的约定</span>
+                    <span class="singer">周杰伦</span>
+                    <span class="timer">04:07</span>
+                </li>
+                <li>
+                    <span class="num">06</span>
+                    <span class="control"><img src="images/heart.png"></span>
+                    <span class="title">无双</span>
+                    <span class="singer">周杰伦</span>
+                    <span class="timer">03:53</span>
+                </li>
+                <li>
+                    <span class="num">07</span>
+                    <span class="control"><img src="images/heart.png"></span>
+                    <span class="title">我不配</span>
+                    <span class="singer">周杰伦</span>
+                    <span class="timer">04:48</span>
+                </li>
+                <li>
+                    <span class="num">08</span>
+                    <span class="control"><img src="images/heart.png"></span>
+                    <span class="title">扯</span>
+                    <span class="singer">周杰伦</span>
+                    <span class="timer">04:03</span>
+                </li>
+                <li>
+                    <span class="num">09</span>
+                    <span class="control"><img src="images/heart-change.png"></span>
+                    <span class="title">甜甜的</span>
+                    <span class="singer">周杰伦</span>
+                    <span class="timer">04:15</span>
+                </li>
+                <li>
+                    <span class="num">10</span>
+                    <span class="control"><img src="images/heart-change.png"></span>
+                    <span class="title">最长的电影</span>
+                    <span class="singer">周杰伦</span>
+                    <span class="timer">03:55</span>
+                </li>
+            </ul>
+
+            <!-- 叶惠美-->
+            <ul>
+                <li>
+                    <p></p>
+                    <p>操作</p>
+                    <p>音乐标题</p>
+                    <p>歌手</p>
+                    <p>时长</p>
+                </li>
+                <li>
+                    <span class="num">01</span>
+                    <span class="control"><img src="images/heart-change.png"></span>
+                    <span class="title">以父之名</span>
+                    <span class="singer">Jay</span>
+                    <span class="timer">02:39</span>
+                </li>
+                <li>
+                    <span class="num">02</span>
+                    <span class="control"><img src="images/heart.png"></span>
+                    <span class="title">懦夫</span>
+                    <span class="singer">Jay</span>
+                    <span class="timer">04:48</span>
+                </li>
+                <li>
+                    <span class="num">03</span>
+                    <span class="control"><img src="images/heart-change.png"></span>
+                    <span class="title">晴天</span>
+                    <span class="singer">Jay</span>
+                    <span class="timer">03:03</span>
+                </li>
+                <li>
+                    <span class="num">04</span>
+                    <span class="control"><img src="images/heart.png"></span>
+                    <span class="title">三年二班</span>
+                    <span class="singer">周杰伦</span>
+                    <span class="timer">04:40</span>
+                </li>
+                <li>
+                    <span class="num">05</span>
+                    <span class="control"><img src="images/heart-change.png"></span>
+                    <span class="title">东风破</span>
+                    <span class="singer">Jay</span>
+                    <span class="timer">05:15</span>
+                </li>
+                <li>
+                    <span class="num">06</span>
+                    <span class="control"><img src="images/heart.png"></span>
+                    <span class="title">你听得到</span>
+                    <span class="singer">Jay</span>
+                    <span class="timer">03:50</span>
+                </li>
+                <li>
+                    <span class="num">07</span>
+                    <span class="control"><img src="images/heart.png"></span>
+                    <span class="title">同一种调调</span>
+                    <span class="singer">Jay</span>
+                    <span class="timer">03:51</span>
+                </li>
+                <li>
+                    <span class="num">08</span>
+                    <span class="control"><img src="images/heart.png"></span>
+                    <span class="title">爱情悬崖</span>
+                    <span class="singer">Jay</span>
+                    <span class="timer">04:22</span>
+                </li>
+                <li>
+                    <span class="num">09</span>
+                    <span class="control"><img src="images/heart.png"></span>
+                    <span class="title">梯田</span>
+                    <span class="singer">Jay</span>
+                    <span class="timer">03:33</span>
+                </li>
+                <li>
+                    <span class="num">10</span>
+                    <span class="control"><img src="images/heart-change.png"></span>
+                    <span class="title">双刀</span>
+                    <span class="singer">Jay</span>
+                    <span class="timer">04:51</span>
+                </li>
+            </ul>
+
+
+        </div>
+    </div>
+
+    <!-- 内容部分 -->
+    <div id="rotate3D">
+        <!-- 左边内容 -->
+        <div class="content-left">
+            <p class="title">It's me</p>
+            <p class="text">编程之路，道阻且长！<br>还有吟不了的诗和到不了的远方。</p>
+            <p>
+                <span>于生活，</span>
+                我是个阳光、开朗、乐观、有点小强迫症的有为青年,平时空闲喜欢下厨，让自己美餐一顿，然后跟朋友组队LoL，每周会抽时间练会舞，打打球！
+            </p>
+            <p>
+                <span>于编程，</span>
+                我是个充满热情、创意丰富、善于解决问题的工程师。能写出属于自己的框架和操作系统是我这个平凡程序猿的梦想，对于兴趣如此广泛的我，希望能找到发挥这些特长并带着满满正能量的工作。
+            </p>
+            <p>
+                <span>汪星迷，</span>
+                生活中特别喜欢狗，而且是那种大大的狗，不喜欢特别小的狗，感觉狗应该是人的朋友，差不多得跟人长得差不多大吧，太小的那种像宠物。特别喜欢的狗狗应该是金毛或者哈士奇！
+            </p>
+        </div>
+        <!-- 中间内容 -->
+        <div class="content-middle">
+            <ul class='-center'>
+                <li>
+                    <div class='w'>
+                        <div class='f'>
+                            <svg viewBox='0 0 180 180'>
+                                <image height='100%' preserveAspectRatio='xMidYMid slice' width='100%'
+                                       xlink:href='images/jay01.jpg'></image>
+                            </svg>
+                        </div>
+                        <div class='b'>
+                            <h3>
+                                床边故事
+                            </h3>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class='w'>
+                        <div class='f'>
+                            <svg viewBox='0 0 180 180'>
+                                <image height='100%' preserveAspectRatio='xMidYMid slice' width='100%'
+                                       xlink:href='images/jay03.jpg'></image>
+                            </svg>
+                        </div>
+                        <div class='b'>
+                            <h3>
+                                Jay 同名专辑
+                            </h3>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class='w'>
+                        <div class='f'>
+                            <svg viewBox='0 0 180 180'>
+                                <image height='100%' preserveAspectRatio='xMidYMid slice' width='100%'
+                                       xlink:href='images/jay05.jpg'></image>
+                            </svg>
+                        </div>
+                        <div class='b'>
+                            <h3>
+                                十一月的萧邦
+                            </h3>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class='w'>
+                        <div class='f'>
+                            <svg viewBox='0 0 180 180'>
+                                <image height='100%' preserveAspectRatio='xMidYMid slice' width='100%'
+                                       xlink:href='images/jay07.jpg'></image>
+                            </svg>
+                        </div>
+                        <div class='b'>
+                            <h3>
+                                十二新作
+                            </h3>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class='w'>
+                        <div class='f'>
+                            <svg viewBox='0 0 180 180'>
+                                <image height='100%' preserveAspectRatio='xMidYMid slice' width='100%'
+                                       xlink:href='images/jay02.jpg'></image>
+                            </svg>
+                        </div>
+                        <div class='b'>
+                            <h3>
+                                七里香
+                            </h3>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class='w'>
+                        <div class='f'>
+                            <svg viewBox='0 0 180 180'>
+                                <image height='100%' preserveAspectRatio='xMidYMid slice' width='100%'
+                                       xlink:href='images/jay04.jpg'></image>
+                            </svg>
+                        </div>
+                        <div class='b'>
+                            <h3>
+                                依然范特西
+                            </h3>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class='w'>
+                        <div class='f'>
+                            <svg viewBox='0 0 180 180'>
+                                <image height='100%' preserveAspectRatio='xMidYMid slice' width='100%'
+                                       xlink:href='images/jay06.jpg'></image>
+                            </svg>
+                        </div>
+                        <div class='b'>
+                            <h3>
+                                牛仔很忙
+                            </h3>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class='w'>
+                        <div class='f'>
+                            <svg viewBox='0 0 180 180'>
+                                <image height='100%' preserveAspectRatio='xMidYMid slice' width='100%'
+                                       xlink:href='images/jay08.jpg'></image>
+                            </svg>
+                        </div>
+                        <div class='b'>
+                            <h3>
+                                叶惠美
+                            </h3>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <!-- 右边 -->
+        <div class="content-right">
+            <h2 class="title-top">Follow the music to travel.</h2>
+            <h2 class="title-bottom">Hiphop voice of freedom.</h2>
+        </div>
+
+
+    </div>
+
+    <!-- 底部-->
+    <div class="footer">
+        <h2>&copy; Jay Chou Music Festival </h2>
+    </div>
+
+</section>
+<!-- E - 第三页 -->
+
+</body>
+<!-- Scripts -->
+<script type="text/javascript" src="js/lib/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="js/lib/libs-require.js"></script>
+<script type="text/javascript" src="js/lib/underscore.js"></script>
+<script type="text/javascript" src="js/lib/jquery.mousewheel.min.js"></script>
+<script type="text/javascript" src="js/jquery.edslider.js"></script>
+<script type="text/javascript" src="js/homepage.js"></script>
+<script type="text/javascript" src="js/rotate.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+
+</html>
