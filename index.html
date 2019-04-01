@@ -17,16 +17,16 @@
 </head>
 <body onselectstart="return false">
 
-<!---------------------------- GPS ---------------------------------->
-<!-- S - 全局导航 -->
 <svg id="GPS" class="hidden">
     <defs>
         <symbol id="icon-pin" viewBox="0 0 24 24">
             <title>pin</title>
-            <path d="M17.6,2.9L17.6,2.9c-3.1-3.1-8.2-3.1-11.3,0l0,0C3.6,5.7,3.2,11,5.6,14.2l6.4,9.2l6.4-9.2C20.8,11,20.4,5.7,17.6,2.9z M12.1,11.1c-1.5,0-2.6-1.2-2.6-2.6s1.2-2.6,2.6-2.6s2.6,1.2,2.6,2.6S13.5,11.1,12.1,11.1z"/>
+            <path
+                d="M17.6,2.9L17.6,2.9c-3.1-3.1-8.2-3.1-11.3,0l0,0C3.6,5.7,3.2,11,5.6,14.2l6.4,9.2l6.4-9.2C20.8,11,20.4,5.7,17.6,2.9z M12.1,11.1c-1.5,0-2.6-1.2-2.6-2.6s1.2-2.6,2.6-2.6s2.6,1.2,2.6,2.6S13.5,11.1,12.1,11.1z"/>
         </symbol>
     </defs>
 </svg>
+
 <nav class="nav nav--totit">
     <button class="nav__item nav__item--current" aria-label="Item 1">
         <svg class="nav__icon">
@@ -47,70 +47,9 @@
         <span class="nav__item-title"></span>
     </button>
 </nav>
-<!-- E - 全局导航 -->
 
-<!---------------------------- 第一页 ---------------------------------->
-<!-- S - 第一页 -->
 <section class="part1">
-    <!-- 轮播 -->
-    <div style="display: none" class="center-slider">
-
-        <ul class="mySlideshow">
-
-            <li class="first">
-                <a href="javascript:;" class="animated fadeInLeft">
-                    <img src="images/coder.jpg" width="200" height="200" alt="Harley-Davidson">
-                </a>
-                <div class="animated fadeInRight">
-                    <span>编程之路,道阻且长</span><br>
-                    <span>还有吟不了的诗和到不了的远方</span><br>
-                    <span class="code">So just keep the fucking code!</span>
-                </div>
-            </li>
-
-            <li class="second">
-                <img src="images/second-title.png" class="animated fadeInRight">
-                <p class="animated fadeInDown">
-                    <span>假如生活欺骗你</span><br>
-                    <span>不要悲伤 不要心急</span><br>
-                    <span class="second-text">
-                        忧郁的日子里需要镇静
-                    </span><br>
-                </p>
-                <img src="images/xiao.jpg" class="animated fadeInRight young-man">
-            </li>
-
-            <li class="third">
-                <img src="images/third-title.png" class="animated fadeInLeft">
-                <p class="animated fadeInRight">
-                    <span>相信吧！快乐的日子将会来临</span><br>
-                    <span class="third-text">心永远向往着未来</span><br>
-                </p>
-                <img src="images/xiao3.jpg" class="animated fadeInLeft happy-man">
-            </li>
-
-            <li class="fourth">
-                <img src="images/fourth-title.png" class="animated fadeInLeft">
-                <p class="animated fadeInRight">
-                    <span>现在却常是忧郁</span><br>
-                    <span>一切都是瞬息</span><br>
-                    <span class="fourth-text">一切都会将过去</span><br>
-                </p>
-                <img src="images/xiao4.jpg" class="animated fadeInDown middle-man">
-            </li>
-
-            <li class="fifth">
-                <img src="images/fifth-title.png" class="animated fadeInRight">
-                <p class="animated fadeInLeft">
-                    <span>而那过去了的</span><br>
-                    <span>就会成为亲切的怀念。</span><br>
-                </p>
-                <img src="images/xiao7.jpg" class="animated fadeInDown old-man">
-            </li>
-        </ul>
-
-    </div>
-    <!-- 动画 -->
+    <div class="art"></div>
     <div id="container">
         <div id="content">
             <div id="stage">
@@ -142,10 +81,7 @@
         </div>
     </div>
 </section>
-<!-- E - 第一页 -->
 
-<!---------------------------- 第二页 ---------------------------------->
-<!-- S - 第二页 -->
 <section style="display: none" class="part2 current">
     <div class="container">
         <div class="st-container">
@@ -269,7 +205,8 @@
                                     <div class="share-content">
                                         <span>技术点：</span>自己封装联动动画功能。通过jQuery原理封装一些常用功能，里面包括入口函数封
                                         装、函数和DOM操作、样式和事件处理，Ajax请求数据封装功能，只需要传入参数即可，
-                                        cookie缓冲记录和保存时长功能。</div>
+                                        cookie缓冲记录和保存时长功能。
+                                    </div>
                                 </li>
                                 <li class="content-list">
                                     在编程的路上，迷茫、徘徊，不知去向的时候，突然收到好哥们晋升的消息，在他的推荐之
@@ -376,18 +313,12 @@
 
     </div>
 </section>
-<!-- E - 第二页 -->
 
-<!---------------------------- 第三页 ---------------------------------->
-<!-- S - 第三页 -->
 <section style="display: none" class="part3 ">
-    <!-- 导航 -->
     <header class="header">
-        <!-- Logo -->
         <h1 class="logo">
             Jay Chou Music Festival
         </h1>
-        <!-- 导航 -->
         <nav id="nav">
             <ul class="oUl">
                 <li>
@@ -455,11 +386,9 @@
                 </li>
             </ul>
         </nav>
-        <!-- 登录 -->
         <div class="login">
             <a href="javascript:;">登录<img src="images/down.png" alt=""></a>
         </div>
-        <!-- 登录选项 -->
         <div style="display: none" class="login-list">
             <ul>
                 <li class="mobile">
@@ -499,15 +428,11 @@
             <img class="sjx" src="images/sanjiaoxing.png" alt="">
         </div>
     </header>
-
-    <!-- 模态登录 -->
     <div style="display: none" class="interface" id="move">
-        <!-- 中心面板 -->
         <div class="panel" id="panel">
             <h1 class="login-title">手机号登录</h1>
             <i class="close"></i>
         </div>
-        <!-- 登录框 -->
         <div class="mode-login" id="login">
             <div class="user-pwd" id="user-pwd">
                 <input type="text" placeholder="请输入手机号">
@@ -528,15 +453,9 @@
             </div>
         </div>
     </div>
-
-    <!-- 蒙版 -->
     <div style="display: none" class="mask"></div>
-
-    <!-- banner部分 -->
     <div id="banner">
         <div class="banner-left">
-
-            <!-- 床边故事 -->
             <ul class="showUl" style="display: block">
                 <li>
                     <p></p>
@@ -1188,10 +1107,7 @@
 
         </div>
     </div>
-
-    <!-- 内容部分 -->
     <div id="rotate3D">
-        <!-- 左边内容 -->
         <div class="content-left">
             <p class="title">It's me</p>
             <p class="text">编程之路，道阻且长！<br>还有吟不了的诗和到不了的远方。</p>
@@ -1341,14 +1257,10 @@
 
 
     </div>
-
-    <!-- 底部-->
     <div class="footer">
         <h2>&copy; Jay Chou Music Festival </h2>
     </div>
-
 </section>
-<!-- E - 第三页 -->
 
 </body>
 <!-- Scripts -->
